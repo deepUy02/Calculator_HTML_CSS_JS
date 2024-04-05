@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    gap:10px;
+    padding: 25px;
+    overflow: hidden;
+}
+#display{
+
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: #594848;
+    color: aliceblue;
+}
+#calculator{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+button{
+    /* to set size to button */
+    width: 100px; 
+    height: 100px;
+    /* to give shape of circle to button */
+    border-radius: 50px;
+    /* to remove borders */
+    border: none;
+    /* to provide background color */
+    background-color: rgb(147, 143, 143);
+    /* to set color to the text */
+    color: aliceblue;
+    /* to bold the text */
+    font-weight: bold;
+    /* to set the size of text */
+    font-size: 3rem;
+    /* if we hover on the button then arrow become pointer */
+    cursor: pointer;
+}
+button:hover{
+    /* if we hover color change */
+    background-color: blanchedalmond;
+    color: black;
+}
+ button:active{ /* if we click color change */
+    background-color: aliceblue;
+
+}
+.operator-btn{
+    background-color: orange;
+}
